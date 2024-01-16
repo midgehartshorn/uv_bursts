@@ -1,7 +1,7 @@
-.compile /home/miriam/Documents/MHC/Summer23/code/iris_intro/msp.pro
-.compile /home/miriam/Documents/MHC/Summer23/code/iris_intro/get_params.pro
-.compile /home/miriam/Documents/MHC/Summer23/code/iris_intro/plot_params.pro
-.compile /home/miriam/Documents/MHC/Summer23/code/iris_intro/cut_data.pro
+.compile msp.pro
+.compile get_params.pro
+.compile plot_params.pro
+.compile cut_data.pro
 
 READ, filename, PROMPT, 'Filename?'
 obs_tag='20130924'
